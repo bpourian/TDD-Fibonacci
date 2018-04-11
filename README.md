@@ -1,7 +1,5 @@
 # TDD Fibonacci Kata
 
-Ongoing - not completed yet
-
 This is the simple Fibonacci Kata which I had previously completed without TDD.
 I am bored and wanted to code for fun so I built this. However in this app I will try and introduce a dynamic programming approach called 'memorisation'.
 

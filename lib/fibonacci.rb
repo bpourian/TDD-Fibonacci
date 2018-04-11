@@ -1,27 +1,20 @@
 class Fibonacci
-  attr_reader :existingArr
-
-  def initialize
-    @existingArr = []
-  end
-
-
   def fibo(n)
     arr =[]
 
-    if @existingArr.empty?
+    if @existingArr.nil?
+      p "Creating new array as no fibonacci in memory"
       @existingArr = create_new_array(n)
 
     elsif @existingArr.length >= n
-
+      p "Retriving existing fibonacci from memory"
       @existingArr = retrieve_fibonacci_from_memory(n, @existingArr)
 
     elsif @existingArr.length < n
-      p 'Printing from memory'
-
+      p "Adding fibonacci to existing array and returning"
       @existingArr = add_to_existing_fibonacci_and_return_arr(n, @existingArr)
     end
-
+    
       @existingArr.join(" ,")
   end
 
@@ -51,4 +44,5 @@ class Fibonacci
 
     existingArr = existingArr[0..length - 3] + arr
   end
+
 end

@@ -14,6 +14,7 @@ describe  Fibonacci do
     end
 
     it "Should add to existing fibonacci and return" do
+      fibonacci.fibo(4)
       expect(fibonacci.fibo(5)).to eq("1 ,1 ,2 ,3 ,5")
     end
   end
