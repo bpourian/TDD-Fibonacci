@@ -7,14 +7,14 @@ class Fibonacci
       @existingArr = create_new_array(n)
 
     elsif @existingArr.length >= n
-      p "Retriving existing fibonacci from memory"
+      p "Retrieving existing fibonacci from memory"
       @existingArr = retrieve_fibonacci_from_memory(n, @existingArr)
 
     elsif @existingArr.length < n
       p "Adding fibonacci to existing array and returning"
       @existingArr = add_to_existing_fibonacci_and_return_arr(n, @existingArr)
     end
-    
+
       @existingArr.join(" ,")
   end
 
