@@ -9,7 +9,7 @@ The idea is that if the program is used in a repl like irb, the value of the sol
 
 Build Language and tools
 ------
-Ruby 2.4.1
-RSpec
-Rubocop
-Simplecov
+• Ruby 2.4.1
+• RSpec
+• Rubocop
+• Simplecov
