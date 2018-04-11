@@ -1,7 +1,7 @@
 # TDD Fibonacci Kata
 
 This is the famous Fibonacci Kata which I had previously completed without TDD.
-I was bored and wanted to code I built this. However, in this app I have introduce a dynamic programming approach called 'memorisation'.
+I wanted to try a new approach and introduce a dynamic programming approach called 'memorisation'.
 
 The idea is that if the program is used in a repl like `irb`, the value of the solutions will be stored in memory. Therefore as the range of numbers given increases the program doesn't have to compute all the calculations which it has already saved. This technique is generally used to optimise performance.
 
